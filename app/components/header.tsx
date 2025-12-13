@@ -74,7 +74,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="fixed top-2 left-4 w-full z-50 backdrop-blur bg-white/10 border-b border-white/10 rounded-3xl max-w-340">
+    <header className="fixed top-3 left-1/2 -translate-x-1/2 w-full max-w-7xl z-50 backdrop-blur bg-white/10 border border-white/10 rounded-3xl">
       <div className="flex items-center justify-between px-7 py-4">
         <h1
           ref={headerNameRef}
