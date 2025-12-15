@@ -54,11 +54,11 @@ export default function Home() {
 
           <div className="rounded-xl bg-[#1f2a36] p-6">
             <h3 className="text-xl font-semibold mb-2">
-              Fictional Airline Site
+              Fictional Pan Am Airline Site
             </h3>
             <p>
-              Fictional site for an airline which allows you to
-              &quot;book&quot;, review, track flights.
+              Fictional site for the former airline Pan Am which allows you to
+              &quot;book&quot;, &quot;review&quot;, and &quot;track&quot; flights.
             </p>
             <strong className="text-amber-400">- Work in Progress -</strong>
           </div>
