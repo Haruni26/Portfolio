@@ -55,6 +55,19 @@ export default function Home() {
             </div>
           </a>
 
+          <a href="https://github.com/Haruni26/a220-site" target="_blank">
+            <div className="rounded-xl bg-[#1f2a36] p-6 border border-transparent hover:border-amber-200 transition-colors cursor-pointer">
+              <h3 className="text-xl font-semibold mb-2">A220 Site</h3>
+              <p>
+                Website that gives information and showcases the Airbus A220
+                aircraft
+              </p>
+              <strong className="text-sm text-amber-400">
+                NextJs & Tailwind - In Early Development
+              </strong>
+            </div>
+          </a>
+
           <div className="rounded-xl bg-[#1f2a36] p-6">
             <h3 className="text-xl font-semibold mb-2">
               Fictional Pan Am Airline Site
@@ -64,7 +77,7 @@ export default function Home() {
               &quot;book&quot;, &quot;review&quot;, and &quot;track&quot;
               flights.
             </p>
-            <strong className="text-amber-400">- Work in Progress -</strong>
+            <strong className="text-red-400">- Work in Progress -</strong>
           </div>
         </div>
       </section>
