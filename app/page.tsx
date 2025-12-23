@@ -58,7 +58,8 @@ export default function Home() {
             </h3>
             <p>
               Fictional site for the airline Pan Am which allows you to
-              &quot;book&quot;, review, track flights.
+              &quot;book&quot;, &quot;review&quot;, and &quot;track
+              flights&quot;.
             </p>
             <strong className="text-amber-400">- Work in Progress -</strong>
           </div>
