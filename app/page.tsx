@@ -21,11 +21,10 @@ export default function Home() {
         <p className="leading-relaxed text-lg"></p>
         Hey 👋, I&apos;m Aaron and I&apos;m a Computer Science major from the
         Bahamas studying in Halifax. I love traveling, aircraft, music,
-        photography and building projects which are informative and mimimal.
-        I&apos;m interested in Full-Stack/Software developer as I love designing
-        and coding front-end for user experience, and also building the systems
-        and platforms to ensure the information the user is getting is accurate,
-        clear, and clean.
+        photography and building projects which are informative and mimimal if
+        possible. I love designing and coding front-end for user experience, and
+        also building the systems and platforms to ensure the information the
+        user is getting is accurate, clear, and clean.
       </section>
 
       {/* Projects */}
