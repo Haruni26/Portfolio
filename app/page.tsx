@@ -165,10 +165,6 @@ export default function Home() {
           </a>
         </div>
       </section>
-
-      <footer className="p-6 text-center">
-        <p>&copy; 2025 Aaron Seymour - Portfolio Version 1.0</p>
-      </footer>
     </main>
   );
 }
