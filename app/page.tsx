@@ -37,58 +37,54 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <a
-            href="https://github.com/Haruni26/Restaurant-Review-Website"
-            target="_blank"
-          >
-            <div className="rounded-xl bg-[#1f2a36] p-6 border border-transparent hover:border-amber-200 transition-colors cursor-pointer">
-              <h3 className="text-xl font-semibold mb-2">
-                Restaurant Review Site
-              </h3>
-              <p>
-                Site which allows users to view and submit reviews for various
-                restaurants in Halifax
-              </p>
-              <strong className="text-sm text-amber-500">
-                HTML & CSS - Still In Development
-              </strong>
-            </div>
-          </a>
+          <div className="rounded-2xl bg-[#1f2a36] p-6">
+            <h3 className="text-2xl font-bold mb-2 text-white">A220 Site</h3>
 
-          <div className="rounded-xl bg-[#1f2a36] p-6">
-            <h3 className="text-xl font-semibold mb-2">A220 Site</h3>
-            <p>
+            <p className="text-gray-300 mb-4">
               Website that gives information and showcases the Airbus A220
-              aircraft
+              aircraft.
             </p>
-            <strong className="text-sm">NextJs & Tailwind</strong>{" "}
-            <a
-              href="https://a220-site.vercel.app/"
-              target="_blank"
-              className="hover:text-amber-400 ml-35 font-bold"
-            >
-              Site
-            </a>{" "}
-            <a
-              href="https://github.com/Haruni26/a220-site"
-              target="_blank"
-              className="hover:text-sky-400 ml-4 font-bold"
-            >
-              Github
-            </a>
+
+            <div className="flex flex-wrap items-center gap-2 mb-4">
+              <span className="text-xs font-medium bg-gray-700 text-gray-200 px-3 py-1 rounded-full">
+                Next.Js
+              </span>
+              <span className="text-xs font-medium bg-gray-700 text-gray-200 px-3 py-1 rounded-full">
+                Tailwind CSS
+              </span>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a
+                href="https://a220-site.vercel.app/"
+                target="_blank"
+                className="text-center border border-gray-400 rounded-lg px-4 py-2 font-semibold text-sm hover:bg-gray-700 transition"
+              >
+                Visit Website
+              </a>
+
+              <a
+                href="https://github.com/Haruni26/a220-site"
+                target="_blank"
+                className="text-center border border-sky-600 rounded-lg px-4 py-2 font-semibold text-sm hover:bg-sky-900 transition"
+              >
+                View GitHub
+              </a>
+            </div>
           </div>
 
-          <div className="rounded-xl bg-[#1f2a36] p-6">
+          <div className="rounded-xl bg-[#1f2a36] p-6 flex flex-col">
             <h3 className="text-xl font-semibold mb-2">
               Fictional Pan Am Airline Site
             </h3>
+
             <p>
               Fictional site for the former airline Pan Am which allows you to
-              &quot;book&quot;, &quot;review&quot;, and &quot;track&quot;
-              flights.
+              book, review, and track flights.
             </p>
-            <strong className="text-red-400">
-              - Still In Heavy Development -
+
+            <strong className="text-red-400 mt-12">
+              - In Heavy Development
             </strong>
           </div>
         </div>
