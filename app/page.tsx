@@ -35,6 +35,7 @@ export default function Home() {
           ones to develop my skills.
         </p>
 
+        {/* A220 Project */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="rounded-2xl bg-[#1f2a36] p-6">
             <h3 className="text-2xl font-bold mb-2 text-white">A220 Site</h3>
@@ -72,14 +73,54 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Junkanoo Project */}
+          <div className="rounded-2xl bg-[#1f2a36] p-6">
+            <h3 className="text-2xl font-bold mb-2 text-white">
+              Junkanoo Site
+            </h3>
+
+            <p className="text-gray-300 mb-4">
+              Website that showcases Junkanoo in the Bahamas with history and a
+              gallery.
+            </p>
+
+            <div className="flex flex-wrap items-center gap-2 mb-4">
+              <span className="text-xs font-medium bg-gray-700 text-gray-200 px-3 py-1 rounded-full">
+                Next.Js
+              </span>
+              <span className="text-xs font-medium bg-gray-700 text-gray-200 px-3 py-1 rounded-full">
+                Tailwind CSS
+              </span>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a
+                href="https://junkanoo-site.vercel.app/"
+                target="_blank"
+                className="text-center border border-gray-400 rounded-lg px-4 py-2 font-semibold text-sm hover:bg-gray-700 transition"
+              >
+                Visit Website
+              </a>
+
+              <a
+                href="https://github.com/Haruni26/junkanoo-site"
+                target="_blank"
+                className="text-center border border-sky-600 rounded-lg px-4 py-2 font-semibold text-sm hover:bg-sky-900 transition"
+              >
+                View GitHub
+              </a>
+            </div>
+          </div>
+
+          {/* Airliner Project */}
           <div className="rounded-xl bg-[#1f2a36] p-6 flex flex-col">
             <h3 className="text-xl font-semibold mb-2">
-              Fictional Pan Am Airline Site
+              Fictional Airliner Site
             </h3>
 
             <p>
-              Fictional site for the former airline Pan Am which allows you to
-              book, review, and track flights.
+              Fictional site for the fictional airline which allows you to book,
+              review, and track flights.
             </p>
 
             <strong className="text-red-400 mt-12">
